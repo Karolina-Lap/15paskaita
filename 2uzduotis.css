@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    min-width: 100%;
+    }
+    
+    
+    .logo{
+        width: 120px;
+        height: 60px;
+        margin-bottom: 25px;
+    
+        
+    
+    }
+    
+    header{
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    
+    }
+ 
+    
+    nav ul{
+        display: flex;
+        gap:40px;
+        list-style-type: none;
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color:rgb(73, 71, 71);
+        transition: 0,3s;
+    }
+    nav ul li a:hover{
+        color:rgb(223, 148, 9);
+        border-bottom: 1px solid orangered;
+        
+    }
+    .nav-button{
+        border-radius:5px;
+        width: 120px;
+        font-size: 12px;
+        padding: 10px;
+        margin-bottom: 20px;
+        background-color: coral;
+        color: white;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+       
+        
+    }
+  
+
+.logo2{
+    position: absolute;
+    top: 50;
+    left: 20;
+    z-index: 1;
+    width: 100%;
+    height: 600px;
+}
+.logo3{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 450px;
+    margin-top: 250px;
+    margin-left: 700px;
+}
+main{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 300px;
+
+}
+
+
+
+.first{
+    font-size: 15px;
+    color: chocolate;
+  
+
+}
+.second{
+    font-size: 50px;
+   
+}
+
+
+.button-one{
+    border-radius:5px;
+    width: 120px;
+    font-size: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: coral;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.button-two{
+    border-radius:5px;
+    width: 120px;
+    font-size: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(129, 96, 84);
+    color: white;
+    border-style: solid;
+    border-color: coral;
+    cursor: pointer;
+ 
+}
+.buttons2{
+display: flex;
+gap: 10px;
+}
